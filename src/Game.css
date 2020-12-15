@@ -1,0 +1,31 @@
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  flex-direction: column;
+  height: 100vh;
+}
+.title {
+  margin-bottom: 20px;
+}
+.square {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}
+.pointer {
+  cursor: pointer;
+}
+.blocked {
+  cursor: not-allowed;
+}
+.success {
+  color: green;
+}
+.bold {
+  font-weight: bold;
+}
